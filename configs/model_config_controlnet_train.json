@@ -1,0 +1,49 @@
+{
+
+    "controlnet_train": {
+        "batch_size": 2,
+        "num_workers": 8,
+        "cache_rate": 0.0,
+        "lr": 0.0001,
+        "n_epochs": 2000,
+        "weighted_loss_label": [
+            null
+        ],
+        "weighted_loss": 1,
+        "val_interval": 10,
+        "val_vis_num": 3,
+        "random_seed": 0
+    },
+    "controlnet_infer": {
+        "random_seed": 0,
+        "num_inference_steps": 10,
+        "autoencoder_sliding_window_infer_size": [
+            80,
+            80,
+            80
+        ],
+        "autoencoder_sliding_window_infer_overlap": 0.4,
+        "val_metrics": [
+            "mse",
+            "psnr",
+            "ssim"
+        ],
+        "test_metrics": [
+            "mse",
+            "psnr",
+            "ssim",
+            "dice",
+            "jac_mae",
+            "cwm_vol"
+        ],
+        "metrics_2d_slice_range": [
+            42,
+            141
+        ],
+        "metrics_2d_resolution": [
+            216,
+            182
+        ],
+        "num_jacobians": 5
+    }
+}

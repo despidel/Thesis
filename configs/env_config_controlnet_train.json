@@ -1,0 +1,13 @@
+{
+    "data_base_dir": "/path/to/data",
+    "embedding_base_dir": "/path/to/data/data_emb",
+    "json_datalist_path": "/path/to/baseline_model_datalist.json",
+    "json_domainrand_datalist_path": "/path/to/domainRand_model_datalist.json",
+    "output_dir": "/path/to/output",
+    "dose_filename": "DoseMap.nii.gz",
+    "brain_mask_filename": "BrainExtractionMask.nii.gz",
+    "roi_mask_filename": "ContrastEnhancedMask-ONCO.nii.gz",
+    "trained_autoencoder_path": "./checkpoints/autoencoder.pt",
+    "trained_diff_model_path": "/path/to/trained_diff_model/chosen_epoch.pt",
+    "trained_controlnet_path": null
+}

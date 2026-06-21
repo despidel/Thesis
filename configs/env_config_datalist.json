@@ -1,0 +1,8 @@
+{
+    "data_base_dir": "/path/to/data",
+    "embedding_base_dir": "/path/to/data/dataset_emb",
+    "img_filename": {"T1": "T1.nii.gz", "T1c": "T1c.nii.gz", "FLAIR": "Flair.nii.gz"},
+    "dose_filename": "DoseMap.nii.gz",
+    "brain_mask_filename": "BrainExtractionMask.nii.gz",
+    "roi_mask_filename": "ContrastEnhancedMask-ONCO.nii.gz"
+}

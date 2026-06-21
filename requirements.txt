@@ -1,0 +1,17 @@
+pandas
+scikit-image
+scipy
+tabulate
+nibabel
+tqdm
+torch
+torchmetrics
+torchvision
+monai
+matplotlib
+numpy
+wandb
+einops
+torchio
+openpyxl
+xlrd

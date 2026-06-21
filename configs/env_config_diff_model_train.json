@@ -1,0 +1,7 @@
+{
+    "embedding_base_dir": "/path/to/data",
+    "json_datalist_path": "/path/to/baseline_model_datalist.json",
+    "output_dir": "/path/to/output",
+    "trained_autoencoder_path": "./checkpoints/autoencoder.pt",
+    "trained_diff_model_path": null
+}

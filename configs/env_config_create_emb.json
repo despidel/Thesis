@@ -1,0 +1,6 @@
+{
+    "embedding_base_dir": "/path/to/data",
+    "json_datalist_path": "/path/to/baseline_model_datalist.json",
+    "json_domainrand_datalist_path": "/path/to/domainRand_model_datalist.json",
+    "trained_autoencoder_path": "./checkpoints/autoencoder.pt"
+}
