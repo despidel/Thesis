@@ -121,4 +121,4 @@ python -m infer.controlnet_infer --mode concat --max_follow_ups n --num_subjects
 where n is the maximum number of follow-ups per subject and m is the maximum number of subjects in the test set used for inference.
 
 ## 7. Result Analysis
-Produced results can be further analysed using `Results_Analysis` Jupyter Notebook.
+Produced results can be further analysed using the Results_Analysis Jupyter Notebook. The metrics.csv files generated per level during inference of each model are used for this analysis. Additionally, the produced Jacobian maps in .nii.gz format are used for plotting.
