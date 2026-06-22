@@ -9,6 +9,7 @@ Data Augmentation Techniques for 3D generative models for post-radiotherapy MRI 
 4. Train Baseline Model ControlNet for conditional generation
 5. Train Domain Randomisation Model ControlNet for conditional generation
 6. Test Models
+7. Result Analysis
 
 ## 0. Set up environment
 ### 0.1 Python Virtual Environment
@@ -118,3 +119,6 @@ Then run:
 python -m infer.controlnet_infer --mode concat --max_follow_ups n --num_subjects m --run_name <inference_name>
 ```
 where n is the maximum number of follow-ups per subject and m is the maximum number of subjects in the test set used for inference.
+
+## 7. Result Analysis
+Produced results can be further analysed using `Results_Analysis` Jupyter Notebook.
