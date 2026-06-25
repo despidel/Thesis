@@ -126,3 +126,15 @@ where n is the maximum number of follow-ups per subject and m is the maximum num
 
 ## 7. Result Analysis
 Produced results can be further analysed using the Results_Analysis Jupyter Notebook. The metrics.csv files generated per level during inference of each model are used for this analysis. Additionally, the produced Jacobian maps in .nii.gz format are used for plotting.
+
+# Files
+**configs:** Includes configuration files for the models. Here, users can set model parameters, data source paths, output directories, etc.\
+**data:** Scripts for data handling, including reading data information, dataset splitting (train, validation, test), data loading, image statistics computation, embedding creation, and image transformations.\
+**eval:** Scripts for evaluation, metric definitions, and the ControlNet evaluation pipeline.\
+**infer:** Scripts for inference across all trained models, specifically  the diffusion model and ControlNet models (baseline model and domain randomisation model)\
+**model:** Scripts for model definitions, including the autoencoder, diffusion model, and ControlNet.\
+**plot:** Scripts for generating plots and figures.\
+**train:** Scripts for training the diffusion model and ControlNet models (baseline model and domain randomisation model).\
+**utils:** Helper functions.\
+**Results_Analysis.ipynb:** A Jupyter notebook that processes results and generates figures and plots for the thesis document.\
+**requirements:** Python packages required for installation.
